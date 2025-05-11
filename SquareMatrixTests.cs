@@ -25,7 +25,6 @@ public class SquareMatrixTests {
 
   [Fact]
   public void Multiply_Matrix() {
-
     var expected = new int[,] { { _matrix2x2.matrix[0, 0] * _anotherMatrix2x2.matrix[0, 0] + _matrix2x2.matrix[0, 1] * _anotherMatrix2x2.matrix[1, 0], _matrix2x2.matrix[0, 0] * _anotherMatrix2x2.matrix[0, 1] + _matrix2x2.matrix[0, 1] * _anotherMatrix2x2.matrix[1, 1] },
       { _matrix2x2.matrix[1, 0] * _anotherMatrix2x2.matrix[0, 0] + _matrix2x2.matrix[1, 1] * _anotherMatrix2x2.matrix[1, 0], _matrix2x2.matrix[1, 0] * _anotherMatrix2x2.matrix[0, 1] + _matrix2x2.matrix[1, 1] * _anotherMatrix2x2.matrix[1, 1] } };
 

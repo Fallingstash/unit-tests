@@ -45,7 +45,7 @@ class SquareMatrixExtensions : SquareMatrix {
     return result;
   }
 
-  public delegate SquareMatrixExtensions MatrixTransformer(SquareMatrixExtensions matrix); // в дальнейшем будет доработано, а пока - заглушка
+  public delegate SquareMatrixExtensions MatrixTransformer(SquareMatrixExtensions matrix);
 
   public MatrixTransformer diagonalize = delegate (SquareMatrixExtensions matrixA)
   {
